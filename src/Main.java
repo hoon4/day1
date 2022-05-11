@@ -24,6 +24,9 @@ public class Main {
         amount = 510;
         result = elec_calc(amount);
         System.out.println(amount + "kWh의 전기요금은 " +result+"원 입니다.");
+        amount = 700;
+        result = elec_calc(amount);
+        System.out.println(amount + "kWh의 전기요금은 " +result+"원 입니다.");
 
 
     }
